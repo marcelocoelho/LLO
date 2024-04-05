@@ -35,8 +35,7 @@ a browser window to view the app. This will automatically update when you save c
 
 ## OpenAI API Key
 
-Remember to provide your OpenAI API key into `sketch.js`. Note that this is configured
-for local development only, and this code should not be used on a production server.
+Duplicate the `.env.template` file and rename the copy to `.env`. This file will store your OpenAI API key and other private environment variables. Add your API key following `OPENAI_API_KEY=`. DON'T add your API keys to the template file, as it is not private.
 
 ## Credit and More Information
 
