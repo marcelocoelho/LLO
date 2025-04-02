@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,windows
 
+
+# hide api key
+.env
+
 ### macOS ###
 # General
 .DS_Store

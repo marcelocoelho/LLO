@@ -1,4 +1,4 @@
-const int ledPin = 10; // the pin that the LED is attached to
+const int ledPin = 9; // the pin that the LED is attached to
 int incomingByte;      // a variable to read incoming serial data into
 
 void setup()

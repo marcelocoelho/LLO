@@ -1,4 +1,4 @@
-# Large Language Object - 2024 Edition
+# Large Language Object - 2025 Edition
 
 This is a simple template that combines OpenAI's Node.js SDK, a P5.js sketch, a serial connection to an Arduino, and Vite for code autorefresh.
 
@@ -11,7 +11,7 @@ This is a simple template that combines OpenAI's Node.js SDK, a P5.js sketch, a 
 
 ## Arduino
 
-Upload A_LLO to an Arduino and use pin 10 for LED feedback.
+Upload A_LLO to an Arduino and use pin 9 for LED feedback.
 
 ## Requirements
 
@@ -24,6 +24,19 @@ Then install the libraries:
     cd LLO
     npm install
 
+
+## OpenAI API Key
+
+Remember to provide your OpenAI API key into `sketch.js`. Note that this is configured for local development only, and this code should not be used on a production server to not expose or API key. 
+
+If you are planning on using github or sharing your code publicly, then you should hide your API key. To do that, create a file called ".env" and add the following line:
+
+```
+VITE_OPENAI_API_KEY=replace_this_with_your_api_key
+```
+
+Because we've added ".env" to .gitignore, the env file will not be committed to github. 
+
 ## Start the dev environment
 
 This template uses [Vite](https://vitejs.dev/) as a local development server. Start it with the following:
@@ -33,10 +46,6 @@ This template uses [Vite](https://vitejs.dev/) as a local development server. St
 By default, this starts a local server at http://localhost:5173/. Just copy/paste this URL into
 a browser window to view the app. This will automatically update when you save changes to your code (that is, no manual refresh required!).
 
-## OpenAI API Key
-
-Remember to provide your OpenAI API key into `sketch.js`. Note that this is configured
-for local development only, and this code should not be used on a production server.
 
 ## Credit and More Information
 
