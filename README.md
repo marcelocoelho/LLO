@@ -43,8 +43,7 @@ This template uses [Vite](https://vitejs.dev/) as a local development server. St
 
     npm run dev
 
-By default, this starts a local server at http://localhost:5173/. Just copy/paste this URL into
-a browser window to view the app. This will automatically update when you save changes to your code (that is, no manual refresh required!).
+By default, this starts a local server at http://localhost:5173/. Just copy/paste this URL into a browser window to view the app. This will automatically update when you save changes to your code (that is, no manual refresh required!).
 
 
 ## Credit and More Information
