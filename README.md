@@ -1,4 +1,4 @@
-# Large Language Object - 2025 Edition
+# Large Language Object - 2026 Edition
 
 This is a simple template that combines OpenAI's Node.js SDK, a P5.js sketch, a serial connection to an Arduino, and Vite for code autorefresh.
 
